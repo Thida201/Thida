@@ -1,0 +1,170 @@
+
+body
+{
+    border: 3px solid #186174;   
+}
+.container
+{
+    width: 100%;
+    position: relative;
+}
+#inn
+{
+  position: absolute;
+  top: 50%; 
+  left: 3%;
+  transform: translate(0%, -50%);
+  padding: 20px;
+  color: white;
+  font-size: 30px; 
+  font-family: 'Poiret One', cursive;
+  line-height: 30%;
+}
+#inn2
+{
+  position: absolute;
+  top: 50%;
+  left: 54%;
+  transform: translate(-10%, -50%);
+  padding: 20px;
+  text-align: justify;
+  color: #0e4652;
+  font-size: 16px;
+  font-family: 'Cormorant', serif;
+}
+.nav
+{
+    background-color: #186174; 
+    padding: 18px; 
+    /* position: sticky; */
+    /* top: 7px; */
+}
+.nav > a
+{
+    width: 100%;
+    height:fit-content;
+    padding: 7px 30px;
+    text-decoration: none;
+    color: white;
+    font-family: calibri;
+    font-weight: bold;
+    box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.20);
+    
+}
+.nav > a:hover
+{
+    background-color: transparent;
+    color: black;
+}
+.all
+{
+    width: 97%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    justify-content: space-around;
+    padding: 20px;
+}
+.a{
+    display: block;
+    width: 64%;
+    text-align: justify;
+    font-size: 16px;
+}
+.welcolor
+{
+    color: red;
+}
+.sitecolor
+{
+    color: #186174;
+}
+
+.b
+{
+    border: 2px solid rgb(193, 186, 186);
+    padding: 10px;
+    display: block;
+    width: 26%;
+    text-align: justify;
+    padding: 10px 10px 10px 40px;
+    box-shadow: 1px 1px 6px 4px gray;
+    
+}
+.b > h1{
+    font-family: 'Philosopher', sans-serif;
+}
+
+#bullet li{
+    list-style: url('media/arr.png');  
+    margin: center;
+}
+
+.item
+{
+    display: block;
+    width: 98%;
+    height: 50px;
+    position: relative;
+    
+
+}   
+
+.item > hr
+{
+    width: 90%;
+    position: absolute;
+    top: 6px
+    
+    
+    
+}
+.item > a
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #186174;
+    padding: 4px 10px 4px 10px;
+    border: 2px solid #186174;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border-top-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    box-shadow: 2px 2px 0px 0px rgba(0,0,0,0.20);
+   
+}     
+
+#footer
+{
+    width: 100%;
+    display: flex;   
+    justify-content: space-between;
+    text-decoration: none;
+    background-color: #186174; 
+    padding: 10px;
+    
+}
+#footer > a
+{
+    color: white;
+    text-decoration: none;   
+    padding: 4px 10px;
+    font-size: 14px;
+    text-align: center;
+}
+#footer > label
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    width: fit-content;
+    padding: 10px 30px 10px 30px;
+     vertical-align: middle;
+}
+             

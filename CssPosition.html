@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Position</title>
+</head>
+<body>
+    <h2>Position Absolute</h2>
+    <div style="background-color: pink; color: white; padding: 10px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione libero obcaecati aliquid sint, porro provident eaque aperiam exercitationem, ad voluptates quasi corrupti? Nulla cupiditate maiores voluptatibus totam perferendis recusandae enim. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem dolorem ipsa consequatur alias et neque in ut iure repudiandae sunt facilis cumque, maxime deserunt odio animi dolores omnis, libero mollitia? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita sint laudantium quis rem blanditiis accusantium ex ullam modi possimus est facere praesentium debitis harum cupiditate, voluptatem ratione reprehenderit quod eos!</div>
+    <div style="background-color: brown; color: white; padding: 10px; width: fit-content; position: absolute; top: 30px; left: 300px;">This is absolute text </div>
+<hr>
+
+    <style>
+        .div-rel
+        {
+            width: 300px;
+            height: 200px;
+            border: 2px solid black;
+            position: relative;
+            /* float: right; */
+            /* margin: auto; */
+        }
+        .div-rel > div
+        {
+            position: absolute;
+            /* top: 20px; */
+            /* right: 0; */
+            bottom: 10px;   
+            right: 10px;
+            background-color: gold;
+            font-weight: bold;
+        }
+    </style>
+    <div class="div-rel">
+        <div >This is Absolute inside Relative</div>
+    </div>
+
+    <hr>
+    <!-- <div style="border: 2px solid goldenrod; width: fit-content; padding: 10px 20px; position: fixed; color: goldenrod; ">This is Fixed and Sticky</div> -->
+    <div style="border: 2px solid goldenrod; width: fit-content; padding: 10px 20px; position: sticky; color: goldenrod; top: 20px;">This is Fixed (nav ၁နေရာတည်းပုံသေ)and Sticky (ကြားသတ်မှတ်နေရာရောက်ရင်ရပ်)</div>
+
+
+
+    <section style="background-color: gray; height: 1000px;"> </section>
+
+    <!-- အောက်ဆုံးထားချင်ရင် -->
+    <div style="border:6px double black; height: 100px; position: relative;;">
+        <p style="position: absolute; bottom: 0; left: 47%;">This is footer</p>
+    </div>
+</body>
+</html>
+<!--
+    Position
+    ---------------------
+
+    static (default)
+    Relative (control or care => absolute)
+    Abasolute (single screen ,no scrollbar)
+    Fixed (control or care => absolute)
+    Sticky
+
+    Top: 0;
+    Right
+    Bottom
+    Left
+
+-->

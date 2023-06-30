@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Exercise</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=M+PLUS+Rounded+1c:wght@100;900&family=PT+Serif&family=Playfair:wght@300&display=swap" rel="stylesheet">
+
+
+</head>
+<style>
+    #about-us
+    {
+        width: 80%;
+        margin: auto;
+        /* border: 1px solid red; */
+        padding: 15px 15px 13px 15px;
+        /* font-family: 'Playfair', serif; */
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        /* font-family: 'Fascinate', cursive; */
+        
+    }
+    .aboutus-text
+    {
+        /* border: 2px solid red; */
+        width: 480px;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 34px;
+    }
+    .aboutus-text > h2
+    {
+        font-size: 38px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        word-spacing: 5px;
+        font-weight: 900;
+        margin-bottom: 45px;
+    }
+    .aboutus-text > p
+    {
+        text-align: justify;
+        line-height: 1.5;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    
+    .aboutus-text > a
+    {
+        display: block;
+        width: fit-content;
+        text-decoration: none;
+        font-weight: 900;
+        font-size: 20px;
+        background-color: black;
+        color: white;
+        padding: 11px 30px;
+        border-radius: 20px;
+        margin-top: 45px;
+        transition: all 1s;
+    }
+    .aboutus-text > a:hover
+    {
+        background-color: blue;
+    }
+    .aboutus-img
+    {
+        /* border: 2px solid red; */
+        width: 480px;
+        height: 390px;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 34px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+</style>
+
+<body>
+
+    <nav>
+        <a href="JsJSON.html">Go to Json</a><br>
+        <a href="CssPosition.html">Go to Position</a><br>
+        <a href="Exercise.html">Go to Display Exercise</a>
+    </nav>
+
+    <h2 align="center">Web Development</h2>
+    <section id="about-us">
+        <div class="aboutus-text">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis necessitatibus nemo porro. Neque facilis debitis nostrum amet voluptatem assumenda ab obcaecati accusamus a totam molestias placeat magni, exercitationem consectetur nobis!</p>
+            <a href="">Read More</a>
+        </div>
+        <div class="aboutus-img">
+            <img src="cherry.jpg" width="100%" height="100%">
+        </div>
+    </section>
+        
+
+    <style>
+        .about-us
+        {
+            border: 2px solid black;
+            width: 80%;
+            margin: auto;  
+            display: flex;
+            padding: 20px;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            row-gap: 20px;
+            box-shadow: 1px 1px 6px 4px gray;
+            border-radius: 16px;
+            font-family: 'M PLUS Rounded 1c', sans-serif;
+            margin-top: 60px;
+            transition: all 1s;
+        }
+        .about-us:hover
+        {
+            transform: scale(1.1);
+            z-index: 0;
+        }
+        #aboutus-text
+        {
+            /* border: 2px solid black; */
+            width: 480px;
+        }
+        #aboutus-text > h2
+        {
+            font-size: 38px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            word-spacing: 5px;
+            font-weight: 900;
+            margin-bottom: 45px;
+        }
+        #aboutus-text > p
+        {
+            text-align: justify;
+            line-height: 1.5;
+            font-size: 18px;
+            font-weight: 300;
+        }
+        
+        #aboutus-text > a
+        {
+            display: block;
+            width: fit-content;
+            text-decoration: none;
+            font-weight: 900;
+            font-size: 20px;
+            background-color: black;
+            color: white;
+            padding: 11px 30px;
+            border-radius: 20px;
+            margin-top: 45px;
+            transition: all 1s;
+        }
+        #aboutus-text > a:hover
+        {
+            background-color: blue;
+        }
+        #aboutus-img
+        {
+            border: 2px solid black;
+            width: 300px;
+            height: 300px;
+        }
+
+    </style>
+
+    <h2 align="center">Web Development</h2>
+    <section class="about-us">
+        <div id="aboutus-text">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis necessitatibus nemo porro. Neque facilis debitis nostrum amet voluptatem assumenda ab obcaecati accusamus a totam molestias placeat magni, exercitationem consectetur nobis!</p>
+            <a href="">Read More</a>
+        </div>
+        <div id="aboutus-img">
+            <img src="cherry.jpg" width="100%" height="100%">
+        </div>
+    </section>
+     
+</body>
+</html>
+
+
+<!--
+    Display
+    -----------------
+    inline      => font, a, label ,span
+    block       => p, div section, article, aside
+    inline-block
+    flex
+    grid
+    table
+    fixed
+-->
